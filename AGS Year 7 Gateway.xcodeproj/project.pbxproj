@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		508402002D3004FC00CFF928 /* Year7WelcomeBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 508401FF2D3004FC00CFF928 /* Year7WelcomeBooklet.pdf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		508401D72D30029400CFF928 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		508401C62D30029100CFF928 /* AGS Year 7 Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGS Year 7 Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508401D62D30029400CFF928 /* AGS Year 7 GatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGS Year 7 GatewayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508401E02D30029400CFF928 /* AGS Year 7 GatewayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGS Year 7 GatewayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		508401FF2D3004FC00CFF928 /* Year7WelcomeBooklet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Year7WelcomeBooklet.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				508401D92D30029400CFF928 /* AGS Year 7 GatewayTests */,
 				508401E32D30029400CFF928 /* AGS Year 7 GatewayUITests */,
 				508401C72D30029100CFF928 /* Products */,
+				508401FF2D3004FC00CFF928 /* Year7WelcomeBooklet.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508402002D3004FC00CFF928 /* Year7WelcomeBooklet.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +406,8 @@
 				DEVELOPMENT_TEAM = W8TK9B2TN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AGS-Year-7-Gateway-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Access to your calendar is required to add events!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +437,8 @@
 				DEVELOPMENT_TEAM = W8TK9B2TN3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AGS-Year-7-Gateway-Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Access to your calendar is required to add events!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
