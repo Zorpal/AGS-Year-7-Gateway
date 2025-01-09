@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		508401D72D30029400CFF928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 508401BE2D30029100CFF928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 508401C52D30029100CFF928;
+			remoteInfo = "AGS Year 7 Gateway";
+		};
+		508401E12D30029400CFF928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 508401BE2D30029100CFF928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 508401C52D30029100CFF928;
+			remoteInfo = "AGS Year 7 Gateway";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		508401C62D30029100CFF928 /* AGS Year 7 Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGS Year 7 Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		508401D62D30029400CFF928 /* AGS Year 7 GatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGS Year 7 GatewayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		508401E02D30029400CFF928 /* AGS Year 7 GatewayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGS Year 7 GatewayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		508401C82D30029100CFF928 /* AGS Year 7 Gateway */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AGS Year 7 Gateway";
+			sourceTree = "<group>";
+		};
+		508401D92D30029400CFF928 /* AGS Year 7 GatewayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AGS Year 7 GatewayTests";
+			sourceTree = "<group>";
+		};
+		508401E32D30029400CFF928 /* AGS Year 7 GatewayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "AGS Year 7 GatewayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508401C32D30029100CFF928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508401D32D30029400CFF928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508401DD2D30029400CFF928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		508401BD2D30029100CFF928 = {
+			isa = PBXGroup;
+			children = (
+				508401C82D30029100CFF928 /* AGS Year 7 Gateway */,
+				508401D92D30029400CFF928 /* AGS Year 7 GatewayTests */,
+				508401E32D30029400CFF928 /* AGS Year 7 GatewayUITests */,
+				508401C72D30029100CFF928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508401C72D30029100CFF928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				508401C62D30029100CFF928 /* AGS Year 7 Gateway.app */,
+				508401D62D30029400CFF928 /* AGS Year 7 GatewayTests.xctest */,
+				508401E02D30029400CFF928 /* AGS Year 7 GatewayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		508401C52D30029100CFF928 /* AGS Year 7 Gateway */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508401EA2D30029400CFF928 /* Build configuration list for PBXNativeTarget "AGS Year 7 Gateway" */;
+			buildPhases = (
+				508401C22D30029100CFF928 /* Sources */,
+				508401C32D30029100CFF928 /* Frameworks */,
+				508401C42D30029100CFF928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				508401C82D30029100CFF928 /* AGS Year 7 Gateway */,
+			);
+			name = "AGS Year 7 Gateway";
+			packageProductDependencies = (
+			);
+			productName = "AGS Year 7 Gateway";
+			productReference = 508401C62D30029100CFF928 /* AGS Year 7 Gateway.app */;
+			productType = "com.apple.product-type.application";
+		};
+		508401D52D30029400CFF928 /* AGS Year 7 GatewayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508401ED2D30029400CFF928 /* Build configuration list for PBXNativeTarget "AGS Year 7 GatewayTests" */;
+			buildPhases = (
+				508401D22D30029400CFF928 /* Sources */,
+				508401D32D30029400CFF928 /* Frameworks */,
+				508401D42D30029400CFF928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				508401D82D30029400CFF928 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				508401D92D30029400CFF928 /* AGS Year 7 GatewayTests */,
+			);
+			name = "AGS Year 7 GatewayTests";
+			packageProductDependencies = (
+			);
+			productName = "AGS Year 7 GatewayTests";
+			productReference = 508401D62D30029400CFF928 /* AGS Year 7 GatewayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		508401DF2D30029400CFF928 /* AGS Year 7 GatewayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508401F02D30029400CFF928 /* Build configuration list for PBXNativeTarget "AGS Year 7 GatewayUITests" */;
+			buildPhases = (
+				508401DC2D30029400CFF928 /* Sources */,
+				508401DD2D30029400CFF928 /* Frameworks */,
+				508401DE2D30029400CFF928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				508401E22D30029400CFF928 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				508401E32D30029400CFF928 /* AGS Year 7 GatewayUITests */,
+			);
+			name = "AGS Year 7 GatewayUITests";
+			packageProductDependencies = (
+			);
+			productName = "AGS Year 7 GatewayUITests";
+			productReference = 508401E02D30029400CFF928 /* AGS Year 7 GatewayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508401BE2D30029100CFF928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					508401C52D30029100CFF928 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					508401D52D30029400CFF928 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 508401C52D30029100CFF928;
+					};
+					508401DF2D30029400CFF928 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 508401C52D30029100CFF928;
+					};
+				};
+			};
+			buildConfigurationList = 508401C12D30029100CFF928 /* Build configuration list for PBXProject "AGS Year 7 Gateway" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 508401BD2D30029100CFF928;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 508401C72D30029100CFF928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508401C52D30029100CFF928 /* AGS Year 7 Gateway */,
+				508401D52D30029400CFF928 /* AGS Year 7 GatewayTests */,
+				508401DF2D30029400CFF928 /* AGS Year 7 GatewayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508401C42D30029100CFF928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508401D42D30029400CFF928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508401DE2D30029400CFF928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508401C22D30029100CFF928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508401D22D30029400CFF928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508401DC2D30029400CFF928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		508401D82D30029400CFF928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 508401C52D30029100CFF928 /* AGS Year 7 Gateway */;
+			targetProxy = 508401D72D30029400CFF928 /* PBXContainerItemProxy */;
+		};
+		508401E22D30029400CFF928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 508401C52D30029100CFF928 /* AGS Year 7 Gateway */;
+			targetProxy = 508401E12D30029400CFF928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		508401E82D30029400CFF928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		508401E92D30029400CFF928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		508401EB2D30029400CFF928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AGS Year 7 Gateway/Preview Content\"";
+				DEVELOPMENT_TEAM = W8TK9B2TN3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ags.bucks.sch.uk.AGS-Year-7-Gateway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		508401EC2D30029400CFF928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AGS Year 7 Gateway/Preview Content\"";
+				DEVELOPMENT_TEAM = W8TK9B2TN3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ags.bucks.sch.uk.AGS-Year-7-Gateway";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		508401EE2D30029400CFF928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8TK9B2TN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ags.bucks.sch.uk.AGS-Year-7-GatewayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGS Year 7 Gateway.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AGS Year 7 Gateway";
+			};
+			name = Debug;
+		};
+		508401EF2D30029400CFF928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8TK9B2TN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ags.bucks.sch.uk.AGS-Year-7-GatewayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGS Year 7 Gateway.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AGS Year 7 Gateway";
+			};
+			name = Release;
+		};
+		508401F12D30029400CFF928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8TK9B2TN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ags.bucks.sch.uk.AGS-Year-7-GatewayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AGS Year 7 Gateway";
+			};
+			name = Debug;
+		};
+		508401F22D30029400CFF928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W8TK9B2TN3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ags.bucks.sch.uk.AGS-Year-7-GatewayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AGS Year 7 Gateway";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508401C12D30029100CFF928 /* Build configuration list for PBXProject "AGS Year 7 Gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508401E82D30029400CFF928 /* Debug */,
+				508401E92D30029400CFF928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508401EA2D30029400CFF928 /* Build configuration list for PBXNativeTarget "AGS Year 7 Gateway" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508401EB2D30029400CFF928 /* Debug */,
+				508401EC2D30029400CFF928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508401ED2D30029400CFF928 /* Build configuration list for PBXNativeTarget "AGS Year 7 GatewayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508401EE2D30029400CFF928 /* Debug */,
+				508401EF2D30029400CFF928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508401F02D30029400CFF928 /* Build configuration list for PBXNativeTarget "AGS Year 7 GatewayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508401F12D30029400CFF928 /* Debug */,
+				508401F22D30029400CFF928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508401BE2D30029100CFF928 /* Project object */;
+}
