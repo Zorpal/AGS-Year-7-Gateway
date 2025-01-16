@@ -60,6 +60,6 @@ struct PDFKitView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: PDFView, context: Context) {
-        // No update needed
+        //...
     }
 }
