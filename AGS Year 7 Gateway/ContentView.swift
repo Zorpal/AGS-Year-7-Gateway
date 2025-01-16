@@ -105,7 +105,7 @@ struct HomePage: View {
 
                 Spacer()
 
-                Text("AGS SD Alpha build 1.0")
+                Text("ALPHA AGS SD build 1.1")
                     .font(.footnote)
                     .padding(.bottom, 20)
                     .foregroundColor(.white)

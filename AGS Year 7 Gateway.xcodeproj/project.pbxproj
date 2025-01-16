@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00CCEB502D393F250011C7B6 /* CANTEEN_MENU.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 00CCEB4F2D393F250011C7B6 /* CANTEEN_MENU.pdf */; };
 		508402002D3004FC00CFF928 /* Year7WelcomeBooklet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 508401FF2D3004FC00CFF928 /* Year7WelcomeBooklet.pdf */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00CCEB4F2D393F250011C7B6 /* CANTEEN_MENU.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CANTEEN_MENU.pdf; sourceTree = "<group>"; };
 		508401C62D30029100CFF928 /* AGS Year 7 Gateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGS Year 7 Gateway.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508401D62D30029400CFF928 /* AGS Year 7 GatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGS Year 7 GatewayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		508401E02D30029400CFF928 /* AGS Year 7 GatewayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGS Year 7 GatewayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 				508401E32D30029400CFF928 /* AGS Year 7 GatewayUITests */,
 				508401C72D30029100CFF928 /* Products */,
 				508401FF2D3004FC00CFF928 /* Year7WelcomeBooklet.pdf */,
+				00CCEB4F2D393F250011C7B6 /* CANTEEN_MENU.pdf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CCEB502D393F250011C7B6 /* CANTEEN_MENU.pdf in Resources */,
 				508402002D3004FC00CFF928 /* Year7WelcomeBooklet.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
