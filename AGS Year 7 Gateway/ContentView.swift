@@ -52,7 +52,7 @@ struct HomePage: View {
                 Spacer()
 
                 NavigationLink(destination: CalendarView()) {
-                    Text("School Calendar")
+                    Text("Term Dates")
                         .font(.headline)
                         .frame(width: 200)
                         .padding()
@@ -60,8 +60,18 @@ struct HomePage: View {
                         .foregroundColor(.white)
                         .cornerRadius(10)
                 }
+                
 
                 Spacer()
+                NavigationLink(destination: O365CalendarView()) {
+                    Text("School Calendar")
+                        .font(.headline)
+                        .frame(width: 200)
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(10)
+                }
 
                 Spacer()
 
@@ -105,7 +115,7 @@ struct HomePage: View {
 
                 Spacer()
 
-                Text("ALPHA AGS SD build 1.1")
+                Text("BETA AGS SD build 2")
                     .font(.footnote)
                     .padding(.bottom, 20)
                     .foregroundColor(.white)
