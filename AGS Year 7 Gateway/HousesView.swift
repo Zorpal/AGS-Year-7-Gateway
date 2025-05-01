@@ -1,6 +1,12 @@
 import SwiftUI
 import WebKit
 
+//This contains all code for the Houses portion of the app.
+// IMPORTANT: In order to change the Youtube links for the videos, you need to change the videoID in the YouTubeVideoView structs.
+// For example, calling upon a VideoView function passes in a parameter which is the ID of the video that is taken from the end of the youtube video link. E.g. a youtube video with link https://www.youtube.com/watch?v=xvFZjo5PgG0 has id "xvFZjo5PgG0". This ID is then passed into the function. This in turn, is used to create a URL for the youtube embed link to be displayed in the form www.youtube.com/embed/xvFZjo5PgG0.
+
+// To change the videos, simply grab the ID from the end of the youtube link and replace it in the function call.
+
 struct HousesView: View {
     var body: some View {
         ZStack {
@@ -47,7 +53,7 @@ struct HousesView: View {
                     }
                     
                     NavigationLink(destination: PatersonView()) {
-                        Text("Patterson")
+                        Text("Paterson")
                             .frame(width: 200)
                             .font(.headline)
                             .padding()

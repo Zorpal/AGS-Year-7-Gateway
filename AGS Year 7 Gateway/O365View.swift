@@ -34,6 +34,6 @@ struct SafeCalendarWebView: UIViewRepresentable {
     }
     
     func updateUIView(_ webView: WKWebView, context: Context) {
-        // No update needed
+        // No update needed but just needed to be defined else 
     }
 }

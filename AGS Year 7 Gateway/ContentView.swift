@@ -2,6 +2,8 @@ import SwiftUI
 import MapKit
 import PDFKit
 
+//This page contains the base code for the app and is the main page of the app. Don't delete anything in this file unless you know what you are doing, sicne all of the variables are used for the core functionality of the app e.g. the map, and contains the links to the other pages in the app. When releasing a new App update, please update the version number in the code below.
+
 struct HomePage: View {
     @State private var showFAQ = false
     @State private var coordinateRegion = MKCoordinateRegion(
@@ -115,12 +117,19 @@ struct HomePage: View {
 
                 Spacer()
 
-                Text("BETA AGS SD build 2")
+                Text("Current Version: 1.0.0.")
                     .font(.footnote)
                     .padding(.bottom, 20)
                     .foregroundColor(.white)
 
                 Spacer()
+                
+                Text("This app was created by Ismail Zaffar (Lee 2018-2025), and fulfilled by the team at AGS Software Development Company.")
+                    .font(.footnote)
+                    .multilineTextAlignment(.center)
+                    .padding()
+                    .frame(maxWidth: 300)
+                    .foregroundColor(.white)
 
                 AGSLogoButton()
             }

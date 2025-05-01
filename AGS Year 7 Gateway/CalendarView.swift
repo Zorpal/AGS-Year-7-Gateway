@@ -1,4 +1,6 @@
 import SwiftUI
+
+// This has the code to display term dates. You can cahnge the sections as needed, or just change the dates as required. 
 struct CalendarView: View {
     var body: some View {
         NavigationView {
