@@ -19,10 +19,10 @@ struct FAQView: View {
                             answer: "We have a handy map of the school on our dedicated app, please navigate to the main page and click on the 'Map' button.")
 
                     FAQItem(question: "Where is the school located?",
-                            answer: "The school is located at 123 AGS Street, in the heart of the city. You can find detailed directions on the app's 'Location' section.")
+                            answer: "The school is located on Walton Road, Aylesbury, HP21 7RP. You can find directions via Google Maps/Apple maps, or feel free to click on the 'Map' button on the main page of the app.")
 
                     FAQItem(question: "What is the house system?",
-                            answer: "The house system is a way to foster community and friendly competition. Each student is assigned to one of four houses, and you can earn points for your house through various activities.")
+                            answer: "The house system is a way to foster community and friendly competition. Each student is assigned to one of six houses, and you can earn points for your house through various activities.")
 
                     VStack(alignment: .leading, spacing: 10) {
                         Text("What extracurricular activities are available?")
